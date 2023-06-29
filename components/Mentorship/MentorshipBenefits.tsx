@@ -12,7 +12,7 @@ const MentorshipTestimonials = () => {
             >
               <Image
                 src="/images/mentorship/testimonials.svg"
-                alt="mentorship testimonials"
+                alt="mentorship test"
                 fill
               />
             </div>

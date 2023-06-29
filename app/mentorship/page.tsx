@@ -10,18 +10,22 @@ import Image from 'next/image';
 const Mentorship = () => {
 
   const [spacing, setSpacing] = useState(2);
-
+  const wordSpacing = "0.4rem"
   return (
     <>
       <Breadcrumb
         pageName="Mentorship"
-        description="Our mentorship program aims to enrich your skills, enhance your career growth, and expand your professional network."
+        description={
+          <>
+            <span style={{ fontWeight: "bold", color: "grey", wordSpacing: wordSpacing}}>
+            Our specialized mentorship approach is designed to amplify your technical and soft skills, provide strategic career guidance, and broaden your professional network. Empower your life and navigate towards the trajectory of your dreams with us. <br/>
+            </span>
+          </>
+        }       
       />
       <MentorshipBenefits />
       <MentorshipTestimonials />
-      <HowCanIHelpYou
-        description="Career Coaching Services tailored to your needs."
-      />
+      <HowCanIHelpYou />
       <Paper>
         <Container maxWidth='xl' sx={{}}>
           <Image
