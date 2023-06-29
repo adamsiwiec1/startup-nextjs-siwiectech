@@ -16,7 +16,6 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-    {/* a section here  */}
       <Brands />
       <Testimonials />
       <Contact />

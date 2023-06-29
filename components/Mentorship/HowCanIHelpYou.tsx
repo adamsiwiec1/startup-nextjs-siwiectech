@@ -1,10 +1,11 @@
 import Image from "next/image";
+import React, { useRef } from 'react' 
 
 const HowCanIHelpYou = () => {
   const steps = [
     {
       title: "How Can I Help You",
-      description: "We can discuss your problems.",
+      description: "",
       img: "/images/logo/logo.svg",
     },
     {
