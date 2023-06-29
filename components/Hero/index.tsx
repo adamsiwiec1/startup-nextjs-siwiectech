@@ -52,7 +52,7 @@ const Hero = () => {
     },
   }}
 >
-  Personalized Freelancing At Your Fingertips
+  Personalized Freelancing On Demand
 </Typography>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   Startup is free Next.js template for startups and SaaS
