@@ -1,5 +1,6 @@
-import MentorshipSectionTwo from "@/components/Mentorship/MentorshipSectionOne";
-import MentorshipSectionOne from "@/components/Mentorship/MentorshipSectionTwo";
+import MentorshipBenefits from "@/components/Mentorship/MentorshipBenefits";
+import MentorshipTestimonials from "@/components/Mentorship/MentorshipTestimonials";
+import HowCanIHelpYou from "@/components/Mentorship/HowCanIHelpYou";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 const Mentorship = () => {
@@ -7,10 +8,11 @@ const Mentorship = () => {
     <>
       <Breadcrumb
         pageName="Mentorship"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Our mentorship program aims to enrich your skills, enhance your career growth, and expand your professional network."
       />
-      <MentorshipSectionOne />
-      <MentorshipSectionTwo />
+      <MentorshipBenefits />
+      <MentorshipTestimonials />
+      <HowCanIHelpYou />
     </>
   );
 };
