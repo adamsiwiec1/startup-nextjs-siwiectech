@@ -1,5 +1,5 @@
-import MentorshipSectionTwo from "@/components/Mentorship/MentorshipSectionOne";
-import MentorshipSectionOne from "@/components/Mentorship/MentorshipSectionTwo";
+import MentorshipSectionTwo from "@/components/Mentorship/MentorshipBenefits";
+import MentorshipSectionOne from "@/components/Mentorship/MentorshipTestimonials";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
@@ -16,7 +16,6 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-    {/* a section here  */}
       <Brands />
       <Testimonials />
       <Contact />
